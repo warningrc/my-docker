@@ -24,7 +24,7 @@
   
 ### nsenter 命令
 
-    命令详解参看[这里](http://man7.org/linux/man-pages/man1/nsenter.1.html)
+命令详解参看[这里](http://man7.org/linux/man-pages/man1/nsenter.1.html)
   
 ## 建立快捷脚本　docker-enter.sh
 

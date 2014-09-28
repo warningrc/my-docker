@@ -26,10 +26,9 @@
 ## 建立快捷脚本　docker-enter.sh
 
     wget  https://raw.githubusercontent.com/warningrc/my-docker/master/docs/_local/docker-enter.sh
-    mv docker-enter.sh /usr/local/bin/docker-enter
-    chmod +x /usr/local/bin/docker-enter
+    chmod +x docker-enter.sh
     
     
     ## 进入docker容器
-    docker-enter　<container_name_or_ID>
+    ./docker-enter.sh　<container_name_or_ID>
 

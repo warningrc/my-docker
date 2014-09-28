@@ -1,5 +1,8 @@
 #!/bin/sh
 
+## 脚内容来源:　http://www.hjue.me/post/docker-nsenter　
+
+
 if [ -e $(dirname "$0")/nsenter ]; then
     # with boot2docker, nsenter is not in the PATH but it is in the same folder
     NSENTER=$(dirname "$0")/nsenter
